@@ -1,0 +1,53 @@
+/* Style du plateau de jeu */
+#plateau{
+	display: grid; /*affiche une grille*/
+	margin: auto; /*centre horizontalement le plateau dans la page*/
+	width: 40%;/*indique la largeur du plateau par rapport à la page*/
+	background-color: #d3d7cf; /*applique la couleur orange*/ 
+	border-radius: 3%;/*arrondie les angles du plateau*/
+	border: solid;/*affiche la bordure du plateau*/
+}
+
+/*Style des balises img*/
+img{
+	display: block; /*permet le centrage dans le bloc div*/
+	margin-right: auto;/*équilibre automatiquement la marge à droite*/
+	margin-left: auto; /*équilibre automatiquement la marge à gauche*/
+	width:80%;
+	height: 80%;
+	margin-bottom: 10%;
+	margin-top: 10%;
+	border-radius: 15%; /*arrondie les angles de l'image*/
+	background-color: #ffffff; 
+	box-shadow: 1vw 1vw 0.5vw #555753; /* ajoute une ombre à l'image */
+}
+
+/*Style des balises bold*/
+b{
+	font-size:1.5vw; /*détermine la taille du texte à être affiché*/
+}
+
+/*Style de la grille de boutons*/
+.grille_boutons{
+	display:grid; /*affiche une grille*/
+	grid-template-columns: 1fr 1fr 1fr;/*crée 3 colonnes*/
+  	grid-template-rows: 1fr ;/*crée 1 ligne*/
+	width: 50%; /*indique la largeur de la grille par rapport à la page*/
+	margin: auto; /*centre horizontalement la grille dans la page*/
+}
+
+/*Style des balises button*/
+button{
+	margin:auto; /*équilibre la marge de chaque coté*/
+	padding: 10%; /*crée un espace supplémentaire dans l'élément autour de celui-ci*/
+	width: 85%; /*indique la largeur des boutons*/
+	font-size: 1vw; /*détermine la taille du texte*/
+}
+
+/*Style du titre*/
+.titre{
+	font-family: verdana; /* Police de caractère */
+	font-size: 2vw; /*détermine la taille du texte*/
+ 	color: #0d0000; /*applique la couleur noire au texte*/
+ 	text-align: center; /*centre le texte*/
+}
